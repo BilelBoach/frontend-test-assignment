@@ -1,9 +1,31 @@
 .blogs-header {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 .blogs {
-    margin-top: 1rem;
+  margin-top: 1rem;
+}
+
+.blogCard {
+  width: 400;
+  margin: 5px;
+}
+
+.greenStrip {
+  border-bottom: 5px green solid;
+}
+
+.blueStrip {
+  border-bottom: 5px blue solid;
+}
+
+.smallImage {
+  width: 50;
+}
+
+.responsiveImage {
+  max-width: 100%;
+  height: auto;
 }
